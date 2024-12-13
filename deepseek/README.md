@@ -9,22 +9,21 @@
 - 在终端中输入以下命令：
   
     ```bash
-    export OPENAI_API_KEY=your_api_key
+    export DEEPSEEK_API_KEY=your_api_key
     ```
 
 ### Windows
 - 在命令提示符中输入以下命令：
     ```bash
-    setx OPENAI_API_KEY "your_api_key_here"
+    setx DEEPSEEK_API_KEY "your_api_key_here"
     ```
 
 ---
 
-## 安装OpenAI的Python SDK
+### 修改Openai中的base_url
 
-- 在终端中输入以下命令：
+- 在Openai的Python SDK中，修改base_url为deepseek的API地址
 
-    ```bash
-    pip install openai
+    ```python
+    client = OpenAI(api_key=deepseek_api_key, base_url="https://api.deepseek.com/v1")
     ```
-

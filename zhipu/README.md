@@ -9,13 +9,13 @@
 - 在终端中输入以下命令：
   
     ```bash
-    export OPENAI_API_KEY=your_api_key
+    export ZHIPU_API_KEY=your_api_key
     ```
 
 ### Windows
 - 在命令提示符中输入以下命令：
     ```bash
-    setx OPENAI_API_KEY "your_api_key_here"
+    setx ZHIPU_API_KEY "your_api_key_here"
     ```
 
 ---
@@ -25,6 +25,6 @@
 - 在终端中输入以下命令：
 
     ```bash
-    pip install openai
+    pip install zhipuai
     ```
 
