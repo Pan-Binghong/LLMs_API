@@ -1,0 +1,6 @@
+dashscope==1.20.14
+openai==1.57.3
+python-dotenv==1.0.1
+qianfan==0.4.12.2
+zhipuai==2.1.5.20241204
+# volcengine-python-sdk[ark]
