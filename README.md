@@ -17,3 +17,22 @@ LLMs_API
 ├─xinference
 └─zhipu
 ```
+
+## 通用环境变量
+
+- dotenv使用方法
+
+    ```python
+    from dotenv import load_dotenv
+    import os
+
+    # 加载 .env 文件
+    load_dotenv()
+
+    # 获取 API 密钥
+    openai_api_key = os.getenv('OPENAI_API_KEY')
+    google_api_key = os.getenv('GOOGLE_API_KEY')
+
+    # 打印测试
+    print(openai_api_key)
+    ```

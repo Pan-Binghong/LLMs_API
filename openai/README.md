@@ -1,8 +1,9 @@
 # OpenAI的API接口使用说明
 
+> 该仓库下包含OpenAI的API接口使用说明，以及API调用示例。主要有文本生成模型, 视觉模型, 音频模型等。
+
 ## 将openai的api密钥导入到环境变量中
   
-> 分linux和windows
 
 ### Linux
 
@@ -28,3 +29,10 @@
     pip install openai
     ```
 
+## 使用第三方代理
+
+- 使用第三方代理，可以提高API的访问速度和稳定性。
+
+    ```python
+    base_url = "https://api.chatanywhere.tech/v1"
+    ```
