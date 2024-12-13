@@ -39,5 +39,7 @@
 
 
 ## References
-- [OpenAI API 文档](https://platform.openai.com/docs/guides/vision)
 - [OpenAI API 示例代码](https://github.com/openai/openai-python)
+- [OpenAI API 文档-vision](https://platform.openai.com/docs/guides/vision)
+- [OpenAI API 文档-text-to-speech](https://platform.openai.com/docs/guides/text-to-speech)
+- [OpenAI API 文档-audio](https://platform.openai.com/docs/guides/audio)
