@@ -36,3 +36,8 @@
     ```python
     base_url = "https://api.chatanywhere.tech/v1"
     ```
+
+
+## References
+- [OpenAI API 文档](https://platform.openai.com/docs/guides/vision)
+- [OpenAI API 示例代码](https://github.com/openai/openai-python)

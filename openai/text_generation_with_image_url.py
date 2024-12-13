@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 '''
-@File    :   text_generation_with_img.py
+@File    :   text_generation_with_image_url.py
 @Time    :   2024/12/13 10:12:15
 @Author  :   pan binghong 
 @Email   :   19909442097@163.com
@@ -25,7 +25,7 @@ completion = client.chat.completions.create(
             "content": [
                 {"type": "text", "text": "图片上有什么?"}, 
                 {"type": "image_url", "image_url": {
-                    "url": "http://photos.shiyanjun.cn/wp-content/uploads/2024/02/Computing-Self-Attention.png"
+                    "url": "https://raw.githubusercontent.com/Pan-Binghong/SuanliTuiJian-v2_mini-programme/refs/heads/main/static/ai-avatar.png"
                 }
                 }
             ]
@@ -35,5 +35,5 @@ completion = client.chat.completions.create(
     max_tokens=300
 )
 
-print(completion.choices[0])
-
+print(completion.choices[0].message.content)
+# 这是一只卡通风格的狗头，通常与“狗狗币”（Dogecoin）有关。它的表情显得俏皮且友好。
