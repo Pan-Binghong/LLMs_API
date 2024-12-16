@@ -23,7 +23,7 @@ client = OpenAI(api_key=openai_api_key, base_url="https://api.chatanywhere.tech/
 
 transcription = client.audio.transcriptions.create(
     model="whisper-1", 
-    file=audio_file
+    file=audio_file,
 )
 print(transcription.text)
 # 請你解釋一下 什麼是深拷貝和淺拷貝
